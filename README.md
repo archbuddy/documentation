@@ -1,6 +1,6 @@
 # Documentation
 
-To read the documentation goes to <https://github.com/archbuddy/documentation>
+To read the documentation goes to <https://archbuddy.github.io/documentation/>
 
 This documentation site is based on <https://squidfunk.github.io/mkdocs-material/getting-started/>
 
