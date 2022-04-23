@@ -1,3 +1,31 @@
-site_name: My Docs
+site_name: Arch Buddy
+repo_name: Arch Buddy
+repo_url: https://github.com/archbuddy/documentation
+site_description: "A opensource tool for mapping your architecture company software and connections"
+site_author: ArchBuddy
+site_url: https://archbuddy.github.io/documentation
+copyright: 'Copyright &copy; 2022 Arch Buddy Authors.'
+
 theme:
   name: material
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - primary: indigo
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - 'Overview': index.md
+  - 'Concepts': concepts.md

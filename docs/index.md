@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Our mission is to create a open source tool to help solution/software architects, tech leads, Principals and general IT people to understand how the applications are connect in the ecossystem of the company
 
-## Commands
+There are several ways to map architecture with a lot of different frameworks, such:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Archimate](https://www.archimatetool.com/)
+- [UML](https://pt.wikipedia.org/wiki/UML)
+- [TOGAF](https://www.opengroup.org/togaf)
+- [C4](https://c4model.com/)
 
-## Project layout
+Our idea here is not to use a framework and use a more practical way to do it, with less maintenance effort and more visibility
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## General idea
+
+Based on the C4 Model we are bringing first what we call Level 0 of architecture that it shows something like this:
+
+``` mermaid
+graph TD;
+  SystemA-->SystemB;
+  SystemA--Some information-->SystemC;
+  SystemC--Some information-->SystemA;
+```
+
+## Metamodel
+Defines how all components are connected and can be connected and how you can read it
+
+## Not covered
+This software, **for now**, will not focus on the internal software architecture but in the solution architect and the communication between systems
