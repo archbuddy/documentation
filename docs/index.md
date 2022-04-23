@@ -15,15 +15,17 @@ Our idea here is not to use a framework and use a more practical way to do it, w
 
 Based on the C4 Model we are bringing first what we call Level 0 of architecture that it shows something like this:
 
+<div style="text-align: center">
 ``` mermaid
 graph TD;
   SystemA-->SystemB;
   SystemA--Some information-->SystemC;
   SystemC--Some information-->SystemA;
 ```
+</div>
 
 ## Metamodel
 Defines how all components are connected and can be connected and how you can read it
 
 ## Not covered
-This software, **for now**, will not focus on the internal software architecture but in the solution architect and the communication between systems
+This software, **for now**, will not focus on the internal software architecture but in how softwares talk to each other
