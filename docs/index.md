@@ -11,6 +11,9 @@ There are several ways to map architecture with a lot of different frameworks, s
 
 Our idea here is not to use a framework and use a more practical way to do it, with less maintenance effort and more visibility
 
+## Overal status
+This product is in very early stage and if you want to join the team please contact me on linkedin: https://linkedin.com/in/brunopenso
+
 ## General idea
 
 Based on the C4 Model we are bringing first what we call Level 0 of architecture that it shows something like this:
