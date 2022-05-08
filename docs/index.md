@@ -30,5 +30,13 @@ graph TD;
 ## Metamodel
 Defines how all components are connected and can be connected and how you can read it
 
+Check [here](./metamodel.md)
+
+## Organization of this product
+This product is organized in 3 big repositories:
+- Documentation: Generate this [documentation](https://github.com/archbuddy/documentation) that you are reading and hosts the [discussions](https://github.com/archbuddy/documentation/discussions) and [issues](https://github.com/archbuddy/documentation/issues) of all you
+- Frontend: [React application](https://github.com/archbuddy/frontend) to show the graph an interact with people
+- Backend: [Backend application](https://github.com/archbuddy/backend) to handle all the interactions
+
 ## Not covered
 This software, **for now**, will not focus on the internal software architecture but in how softwares talk to each other

@@ -26,7 +26,12 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+plugins:
+    - drawio-exporter
+
 nav:
   - 'Overview': index.md
   - 'Concepts': concepts.md
   - 'Architecture': architecture.md
+  - 'Metamodel': metamodel.md
+  - 'Development': development.md

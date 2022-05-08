@@ -1,3 +1,3 @@
 # Architecture
 
-In construction
+![Full Architecture View](diagrams.drawio#0)
