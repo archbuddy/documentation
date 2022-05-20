@@ -1,6 +1,8 @@
 # Overview
 
-Our mission is to create a open source tool to help solution/software architects, tech leads, Principals and general IT people to understand how the applications are connect in the ecossystem of the company
+Our mission is to create a open source tool to help Solution/Software Architects, Tech Leads, Principals and General IT folks to understand how the applications are connect in the ecosystem of the company and some other features that are needed for this job.
+
+Different from other software we will achive enterprise grade product that are only paid, it means, that we aren't delivering a diagram tool but a enterprise grade style where all objects are connect and can be reutilized in any kind of view.
 
 There are several ways to map architecture with a lot of different frameworks, such:
 
@@ -9,14 +11,14 @@ There are several ways to map architecture with a lot of different frameworks, s
 - [TOGAF](https://www.opengroup.org/togaf)
 - [C4](https://c4model.com/)
 
-Our idea here is not to use a framework and use a more practical way to do it, with less maintenance effort and more visibility
+Our idea here is not to use a framework and use a more practical way to do it, with less maintenance effort and more visibility but the firsts releases are focused on the C4 model framework.
 
 ## Overal status
 This product is in very early stage and if you want to join the team please contact me on linkedin: https://linkedin.com/in/brunopenso
 
 ## General idea
 
-Based on the C4 Model we are bringing first what we call Level 0 of architecture that it shows something like this:
+Based on the C4 Model we are bringing first what we call Level 0 of architecture, or System Landscape, that it shows something like this:
 
 <div style="text-align: center">
 ``` mermaid
@@ -27,16 +29,8 @@ graph TD;
 ```
 </div>
 
-## Metamodel
-Defines how all components are connected and can be connected and how you can read it
-
-Check [here](./metamodel.md)
-
 ## Organization of this product
-This product is organized in 3 big repositories:
-- Documentation: Generate this [documentation](https://github.com/archbuddy/documentation) that you are reading and hosts the [discussions](https://github.com/archbuddy/documentation/discussions) and [issues](https://github.com/archbuddy/documentation/issues) of all you
-- Frontend: [React application](https://github.com/archbuddy/frontend) to show the graph an interact with people
-- Backend: [Backend application](https://github.com/archbuddy/backend) to handle all the interactions
+Check the development menu on the left
 
 ## Not covered
 This software, **for now**, will not focus on the internal software architecture but in how softwares talk to each other
