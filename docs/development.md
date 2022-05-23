@@ -8,12 +8,23 @@ This product is organized in 3 big repositories:
 
 ## Setup
 
+### Setup mongo
+
+Option 1, just use the docker-compose file running `docker-compose up` that will start the mongo server and the mongo express explorer
+
+Option 2, install mongodb locally following instruction from <https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/>
+Some quick commands:
+
+- brew services start mongodb/brew/mongodb-community
+- brew services stop mongodb/brew/mongodb-community
+- brew services list
+
+### Application
 Clone github projects
 
 Go to the backend project:
 
 ```bash
-docker-compose up
 npm Install
 npm run seed
 npm start
