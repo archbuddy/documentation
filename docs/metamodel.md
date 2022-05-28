@@ -1,3 +1,3 @@
 # Metamodel
 
-![Database model](./diagrams.drawio#1)
+![Database model](../diagrams.drawio#1)

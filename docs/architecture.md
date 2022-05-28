@@ -1,3 +1,3 @@
 # Architecture
 
-![Full Architecture View](./diagrams.drawio#0)
+![Full Architecture View](../diagrams.drawio#0)
