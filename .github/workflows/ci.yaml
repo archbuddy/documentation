@@ -18,6 +18,6 @@ jobs:
       - run: pip install mkdocs-drawio-exporter
       - name: Install drawio
         run: |
-        wget https://github.com/jgraph/drawio-desktop/releases/download/v18.1.3/drawio-amd64-18.1.3.deb
-        sudo dpkg -i drawio-amd64-18.1.3.deb
+          wget https://github.com/jgraph/drawio-desktop/releases/download/v18.1.3/drawio-amd64-18.1.3.deb
+          sudo dpkg -i drawio-amd64-18.1.3.deb
       - run: mkdocs gh-deploy --force
