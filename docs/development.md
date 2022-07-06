@@ -29,7 +29,7 @@ Clone github projects
 Go to the backend project:
 
 ```bash
-npm Install
+npm install
 npm run seed
 npm start
 ```
@@ -37,6 +37,6 @@ npm start
 Go to the frontend project:
 
 ```bash
-npm Install
+npm install
 npm start
 ```

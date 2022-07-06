@@ -34,3 +34,4 @@ nav:
   - 'Architecture': architecture.md
   - 'Metamodel': metamodel.md
   - 'Development': development.md
+  - 'Running': running.md
