@@ -36,5 +36,3 @@ Go to the frontend project:
 npm Install
 npm start
 ```
-
-When asked for port conflit accept the new port and start development
