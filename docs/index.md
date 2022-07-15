@@ -13,7 +13,7 @@ There are several ways to map architecture with a lot of different frameworks, s
 
 Our idea here is to adopt C4 Model, we strongly believe that C4 is simple enough for more than one use case
 
-## Overal status
+## Overall status
 This product is in very early stage and if you want to join the team please contact me on linkedin: https://linkedin.com/in/brunopenso
 
 ## General idea
@@ -35,3 +35,5 @@ So when creating new diagrams, you can:
 - Create connections between 2 systems or reuse existing
 
 With this behavior you can see all systems and connections in one unique place and in the future releases see graphs and system interactions
+
+![How It Works](./assets/howitworks.png "How Arch Buddy Works")

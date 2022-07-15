@@ -4,6 +4,8 @@ To read the documentation goes to <https://archbuddy.github.io/documentation/>
 
 This documentation site is based on <https://squidfunk.github.io/mkdocs-material/getting-started/>
 
+Google slides with logo and other data: <https://docs.google.com/presentation/d/17rmKubHmIQS_r0pWBLf8jHwJPn-zIDhy1H7BORqXAyc/edit#slide=id.g78fad76451258a65_10>
+
 ## Prepare environment
 Requirements:
 - python3
