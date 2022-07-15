@@ -20,7 +20,7 @@ This product is in very early stage and if you want to join the team please cont
 
 Based on the C4 Model we are bringing first the Level 1 of architecture, or System Context Diagram. You can read more [here](https://c4model.com/#SystemContextDiagram)
 
-``` mermaid
+```mermaid
 graph TD;
   SystemA-->SystemB;
   SystemA--Some information-->SystemC;
