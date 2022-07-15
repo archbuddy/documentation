@@ -47,3 +47,8 @@ The bottom part represents all objects from all view point, meaning:
 - All objects are connect
 - You can reuse objects and connections
 - You can see the entire context together
+
+We must have notice a dashed line between the orange and yellow circle, this is representing a connection between 2 systems that in the view points are not showing. This is happening because:
+
+1. Someone create a connection and deleted from the view point
+1. There is another view point not represented on the image above, but it is in some other
