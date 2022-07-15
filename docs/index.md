@@ -36,4 +36,16 @@ So when creating new diagrams, you can:
 
 With this behavior you can see all systems and connections in one unique place and in the future releases see graphs and system interactions
 
+## How it works
+
 ![How It Works](./assets/howitworks.png "How Arch Buddy Works")
+
+The image above represents the general way of working.
+
+In the top part of the image you have 3 view points of part of the data that were build in different times from different people.
+
+The bottom part represents all objects from all view point, meaning:
+
+- All objects are connect
+- You can reuse objects and connections
+- You can see the entire context together
